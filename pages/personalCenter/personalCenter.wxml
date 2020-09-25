@@ -1,0 +1,33 @@
+<!--pages/personalCenter/personalCenter.wxml-->
+<view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" bindtap="bindUserLogin" type="primary">立即登录 </button>
+    <block wx:else open-type="getUserInfo">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+ </block>
+ </view>
+<!--订单中心-->
+<view class="myOrder">	
+<view class="category" bindtap="GetAttestation">
+<image src="/icon/收藏.png"></image>	<text>实名认证</text>
+<image class="sortArrow" src="/icon/arrowRight.png"></image>
+</view>
+<view class="category" bindtap="GetOrder">
+				<image src="/icon/相册.png"></image>
+        <text >订单管理</text>
+				<image class="sortArrow" src="/icon/arrowRight.png"></image>
+</view>
+<view class="category" bindtap="GetInformation">
+				<image src="/icon/卡包.png"></image>		<text>消息通知</text>
+				<image class="sortArrow" src="/icon/arrowRight.png"></image>
+</view>
+<view class="category" bindtap="GetPaypal" >
+			<image src="/icon/表情.png"></image>	<text>钱包</text>
+			<image class="sortArrow" src="/icon/arrowRight.png"></image>
+</view>
+<view class="category" bindtap="GetSetting">
+		<image src="/icon/_设置.png" class="d"></image>
+		<text>设置</text>
+		<image class="sortArrow" src="/icon/arrowRight.png"></image>
+    </view>
+</view>

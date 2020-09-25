@@ -1,0 +1,12 @@
+<!--我的订单-->
+<view class="myFavorite"> 
+  <label>全部订单: {{number}}</label>
+  <label>待送达: {{number}}</label>
+  <label>已送达: {{number}}</label>
+  <view class="news-list">
+    <view class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}">
+      <image src="{{item.poster}}"></image>
+      <text bindtap = 'goToDetail' data-id="{{item.id}}">{{item.title}}————{{item.add_date}}</text>
+    </view>
+  </view>
+</view>

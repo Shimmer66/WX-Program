@@ -1,0 +1,49 @@
+.userinfo {
+  width: 100%; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius:10rpx;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+  flex-direction: column;
+  margin-bottom: 90rpx;
+  margin-left: 20rpx;
+}
+
+.usermotto {
+  width: 100%;
+  margin-top: 200rpx;
+}
+.myOrder{
+  margin-top: 50rpx;
+  background-color:#fff
+}
+.myOrder image{
+  width:60rpx;
+  height: 60rpx;
+}
+.myOrder text{
+margin-left: 50rpx;
+margin-right: 100rpx;
+
+}
+.category{
+  height: 90rpx;
+  margin-bottom: 50rpx;
+  border-color: #fff;
+  border-bottom: 1px solid #ccc
+}
+
+.sortArrow{
+  float: right;
+}

@@ -1,0 +1,14 @@
+<!--钱包-->
+<view class="theAll">
+  <view class="topPart">
+<text>银行卡绑定</text>
+  </view>
+ <view class="middlePart">
+<text>余额</text>
+<text>礼券</text>
+ </view>
+<view class="bottomPart">
+<text>交易明细</text>
+</view>
+
+</view>

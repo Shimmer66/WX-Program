@@ -1,0 +1,43 @@
+{
+  "pages": [ 
+    "pages/home/home",
+    "pages/myOrder/myOrder",
+    "pages/personalCenter/personalCenter",
+     "pages/setting/setting",  
+    "pages/paypal/paypal",   
+   
+    "pages/attestation/attestation",
+    "pages/cargoDetail/cargoDetail",
+    "pages/personInform/personInform",
+    
+    "pages/login/login",
+    
+    "pages/message/message"
+   
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "icon/homepage.png",
+        "selectedIconPath": "icon/selectedhome.png"
+      },
+      {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "text": "我的",
+        "iconPath": "icon/person.png",
+        "selectedIconPath": "icon/selectedperson.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "速递",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json"
+}

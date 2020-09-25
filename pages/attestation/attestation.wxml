@@ -1,0 +1,30 @@
+<!--pages/attestation/attestation.wxml-->
+		<view class="title">
+			<label >实名认证</label>
+		</view>
+		<view class="InformationForm">
+			<label style="float:left">姓名:</label>
+		  <input class="weui-input" maxlength="10" />
+		</view>
+		<view class="InformationForm">
+			<label style="float:left">性别:</label>
+		  <input class="weui-input" maxlength="10" />
+		</view>
+		<view class="InformationForm">
+			<label style="float:left">年龄:</label>
+		  <input class="weui-input" maxlength="10"  />
+		</view>
+		<view class="InformationForm">
+			 <label style="float:left">联系方式:</label>
+			 <input class="weui-input" maxlength="10"   />
+		</view>	
+<text >证件照片</text>
+<view class="bottomphoto">	
+   <view class="IDphoto"> 	<image  src="/icon/plusSign.png"></image>
+			<text>正面点击上传</text>	
+	 </view>
+  <view class="IDphoto">  	<image  src="/icon/plusSign.png"></image>	
+			<text >反面点击上传</text>
+	</view>
+</view>
+<button class="btn">点击提交 </button>

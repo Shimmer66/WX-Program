@@ -1,0 +1,29 @@
+/* pages/setting/setting.wxss */
+.theAll{
+  background-color: rgb(236, 234, 234);
+  font-size: 45rpx;
+  height: 100vh;
+  }
+  .topPart{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    height: 300rpx;
+    margin-top: 20rpx;
+  }
+  
+  .topPart text{
+    line-height: 100rpx;   
+   padding-left: 20rpx;
+    border: 1rpx solid rgb(236, 234, 234);
+    
+  }
+  button{
+    width: 80%;
+    margin-top: 300rpx;  
+    background-color: beige;
+    color: rgb(58, 55, 55);
+  }
+  
+  
+  

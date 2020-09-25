@@ -1,0 +1,5 @@
+<!--个人信息-->
+<view class="title">
+			<label >消息记录</label>
+</view>
+<text class="dataText">暂无消息通知</text>

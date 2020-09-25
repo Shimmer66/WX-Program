@@ -1,0 +1,10 @@
+<!--pages/cargoDetail/cargoDetail.wxml-->
+<view class="container">
+<view class="title">{{cargo.title}}</view>
+<view class="poster">
+  <image src="{{cargo.poster}}"></image></view>
+<view class="cargoContent">{{cargo.content}}</view>
+<view class="cargoDate">{{cargo.date}}</view>
+  <button wx:if ='{{isAdd}}' bindtap="cancelFavorites">已接单</button>
+  <button wx:else  bindtap = "addFavorites">未接单</button>
+</view>

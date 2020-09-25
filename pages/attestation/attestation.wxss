@@ -1,0 +1,78 @@
+/* pages/attestation/attestation.wxss */
+.title{
+  width: 100%;
+  height: 200rpx;
+  line-height: 180rpx;
+  background: #323153;
+  text-align: center;
+  font-size: 80rpx;
+  color: aliceblue;
+}
+.InformationForm{
+  border-bottom: 1px solid #ccc;
+}
+.weui-input{
+  margin-bottom: 30rpx;
+  height: 80rpx;
+}
+label{
+ margin-left: 20rpx;
+ margin-top: 10rpx;
+}
+text{
+  line-height: 100rpx;
+}
+.bottomphoto{
+  display: flex;
+}
+.IDphoto
+{display: flex;
+flex-direction: column;
+}
+.IDphoto image{
+  width: 200rpx;
+  height: 200rpx;
+  margin-left: 100rpx;
+}
+.IDphoto text{
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: gray;
+  margin-left: 150rpx;
+}
+.btn{
+  width: 80%;
+  margin-top: 60rpx;
+  margin-bottom: 40rpx;
+  background-color: beige;
+  color: rgb(58, 55, 55);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

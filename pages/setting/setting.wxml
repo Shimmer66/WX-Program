@@ -1,0 +1,12 @@
+<!--pages/setting/setting.wxml-->
+<view class="theAll">
+  <view class="topPart">
+<text>修改地址</text>
+<text>帮助中心</text>
+<text>关于</text>
+  </view>
+ <button type="primary"> 退出登录</button>
+
+
+</view>
+

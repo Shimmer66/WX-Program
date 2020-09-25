@@ -1,0 +1,9 @@
+/* pages/myOrder/myOrder.wxss */
+.myFavorite{
+  padding: 20rpx;
+}
+label{
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx;
+}

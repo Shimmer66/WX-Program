@@ -1,0 +1,28 @@
+/* pages/paypal/paypal.wxss */
+.theAll{
+background-color: rgb(236, 234, 234);
+font-size: 45rpx;
+height: 100vh;
+}
+.topPart{
+  border-top: 20rpx solid rgb(236, 234, 234);
+  background-color: #FFF;
+  height: 100rpx;
+}
+.middlePart{
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  height: 200rpx;
+  margin-top: 20rpx;
+}
+.middlePart text{
+  line-height: 100rpx;
+  border-bottom: 1rpx solid rgb(236, 234, 234);
+}
+.bottomPart{
+  background-color: #FFF;
+  margin-top: 20rpx;
+  height: 100rpx;
+  border-bottom: 1rpx solid rgb(236, 234, 234);
+}
